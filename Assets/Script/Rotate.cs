@@ -22,7 +22,7 @@ public class Rotate : MonoBehaviour
         {
             rb.AddTorque(torque);
         }
-        else if (Input.GetKeyDown(KeyCode.Space)) //Press space to stop
+        else if (Input.GetKeyDown(KeyCode.F)) //Press F to stop
         {
             rb.angularVelocity = Vector3.zero; // (0,0,0)
         }
